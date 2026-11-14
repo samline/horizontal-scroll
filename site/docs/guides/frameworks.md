@@ -5,7 +5,7 @@ description: Use @samline/horizontal-scroll in React, Vue, Svelte and Astro, and
 locale: en
 sidebar:
   group: guides
-  order: 3
+  order: 4
 ---
 
 `horizontalScroll` returns an object with `destroy()`, so it fits every framework's mount and unmount hooks. Changes in size are picked up on their own; call `refresh()` after replacing the track element.
