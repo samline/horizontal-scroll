@@ -2,7 +2,7 @@
 
 Pin a section and move its row of content sideways as the page scrolls down, for galleries, timelines and showcases, with keyboard focus, media queries, reduced motion and a native scroll fallback. For vanilla JavaScript, any framework and plain HTML.
 
-[Demo](https://samline.github.io/utils/horizontal-scroll/) · [Examples](https://samline.github.io/utils/horizontal-scroll/examples/) · [Documentation](https://samline.github.io/utils/docs/horizontal-scroll/) · [Changelog](CHANGELOG.md)
+[Demo](https://samline.github.io/horizontal-scroll/) · [Examples](https://samline.github.io/horizontal-scroll/examples/) · [Documentation](https://samline.github.io/horizontal-scroll/docs/) · [Changelog](CHANGELOG.md)
 
 ## Table of contents
 
@@ -116,29 +116,29 @@ Pin below a fixed header (`top`), cross faster or slower (`speed`), work inside 
 
 ## Documentation
 
-Read the [documentation](https://samline.github.io/utils/docs/horizontal-scroll/) for the full guides and API contracts, and explore [working examples](https://samline.github.io/utils/horizontal-scroll/examples/) with complete and separate source files.
+Read the [documentation](https://samline.github.io/horizontal-scroll/docs/) for the full guides and API contracts, and explore [working examples](https://samline.github.io/horizontal-scroll/examples/) with complete and separate source files.
 
-| Guide                                                                                      | What it covers                                                            |
-| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| [Installation](https://samline.github.io/utils/docs/horizontal-scroll/getting-started/)    | npm, CDN and the first section.                                           |
-| [API reference](https://samline.github.io/utils/docs/horizontal-scroll/reference/api/)     | `horizontalScroll`, `autoHorizontalScroll` and `window.HorizontalScroll`. |
-| [Options](https://samline.github.io/utils/docs/horizontal-scroll/reference/configuration/) | Attributes and options.                                                   |
-| [Layouts](https://samline.github.io/utils/docs/horizontal-scroll/guides/layouts/)          | Headers, fallbacks, focus, scroll containers and sticky pitfalls.         |
-| [Frameworks](https://samline.github.io/utils/docs/horizontal-scroll/guides/frameworks/)    | React, Vue, Svelte, Astro and page swaps.                                 |
+| Guide                                                                                | What it covers                                                            |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| [Installation](https://samline.github.io/horizontal-scroll/docs/getting-started/)    | npm, CDN and the first section.                                           |
+| [API reference](https://samline.github.io/horizontal-scroll/docs/reference/api/)     | `horizontalScroll`, `autoHorizontalScroll` and `window.HorizontalScroll`. |
+| [Options](https://samline.github.io/horizontal-scroll/docs/reference/configuration/) | Attributes and options.                                                   |
+| [Layouts](https://samline.github.io/horizontal-scroll/docs/guides/layouts/)          | Headers, fallbacks, focus, scroll containers and sticky pitfalls.         |
+| [Frameworks](https://samline.github.io/horizontal-scroll/docs/guides/frameworks/)    | React, Vue, Svelte, Astro and page swaps.                                 |
 
 ## Changelog
 
-Read [CHANGELOG.md](CHANGELOG.md) or the [published changelog](https://samline.github.io/utils/docs/horizontal-scroll/changelog/) for release history and explicitly marked breaking and behavior changes. Review the notes before upgrading.
+Read [CHANGELOG.md](CHANGELOG.md) or the [published changelog](https://samline.github.io/horizontal-scroll/docs/changelog/) for release history and explicitly marked breaking and behavior changes. Review the notes before upgrading.
 
 ## AI agent skill
 
-The [Horizontal Scroll skill](https://samline.github.io/utils/skills/horizontal-scroll/SKILL.md) teaches verified package integration. Its maintained [repository source](site/SKILL.md) and website download are the same file. Verify the installed package version before applying its guidance.
+The [Horizontal Scroll skill](https://samline.github.io/horizontal-scroll/skills/horizontal-scroll/SKILL.md) teaches verified package integration. Its maintained [repository source](skills/horizontal-scroll/SKILL.md) and website download are the same file. Verify the installed package version before applying its guidance.
 
-Download [SKILL.md](https://samline.github.io/utils/skills/horizontal-scroll/SKILL.md) into a `horizontal-scroll/` folder in your agent's supported skill directory. For agents that discover project skills from `.agents/skills/`:
+Download [SKILL.md](https://samline.github.io/horizontal-scroll/skills/horizontal-scroll/SKILL.md) into a `horizontal-scroll/` folder in your agent's supported skill directory. For agents that discover project skills from `.agents/skills/`:
 
 ```sh
 mkdir -p .agents/skills/horizontal-scroll
-curl --fail --location https://samline.github.io/utils/skills/horizontal-scroll/SKILL.md \
+curl --fail --location https://samline.github.io/horizontal-scroll/skills/horizontal-scroll/SKILL.md \
   --output .agents/skills/horizontal-scroll/SKILL.md
 ```
 
