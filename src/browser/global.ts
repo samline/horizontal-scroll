@@ -1,5 +1,5 @@
-import { autoHorizontalScroll, horizontalScroll } from '../core/horizontal-scroll.js'
-import type { AutoInitController } from '../core/horizontal-scroll.js'
+import { autoHorizontalScroll, horizontalScroll } from '../vanilla/index.js'
+import type { AutoInitController } from '../vanilla/index.js'
 
 /**
  * Classic script for pages without a build step. It watches every
