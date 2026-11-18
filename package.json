@@ -1,6 +1,6 @@
 {
   "name": "@samline/horizontal-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pin a section and move its content sideways as the page scrolls down, with keyboard focus, a no-JavaScript fallback, media queries and reduced motion, for vanilla JavaScript, any framework and plain HTML.",
   "keywords": [
     "horizontal-scroll",

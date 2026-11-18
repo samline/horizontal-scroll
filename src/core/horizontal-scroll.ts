@@ -115,10 +115,10 @@ const clipProperty = () =>
  * the section is left to your CSS (for example a native horizontal scroll).
  * Returns `{ active, progress, refresh, destroy }`.
  */
-export function horizontalScroll(
+export const horizontalScroll = (
   section: Element | string,
   options: HorizontalScrollOptions = {}
-): HorizontalScroll {
+): HorizontalScroll => {
   if (!isBrowser()) return inert
   const host = resolveElements(section)[0] as HTMLElement | undefined
   if (!host) return inert
@@ -317,12 +317,12 @@ export function horizontalScroll(
  * added later, and clean up ones that are removed. Returns a controller with
  * `refresh()` and `destroy()`.
  */
-export function autoHorizontalScroll({
+export const autoHorizontalScroll = ({
   selector = `[${ATTRIBUTE}]`,
   scope,
   observe = true,
   ...options
-}: AutoHorizontalScrollOptions = {}): AutoInitController {
+}: AutoHorizontalScrollOptions = {}): AutoInitController => {
   return autoInit({
     selector,
     observe,

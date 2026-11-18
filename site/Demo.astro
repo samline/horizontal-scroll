@@ -1,4 +1,5 @@
 ---
+import Icon from '../shared/components/Icon.astro'
 // Home preview: a page inside a box, with a section that pins while its
 // cards cross sideways. The box stands in for the page via `root`.
 const cards = [
@@ -13,7 +14,7 @@ const cards = [
 
 <horizontal-scroll-demo class="demo">
   <div class="stage" tabindex="0" aria-label="Scrollable page">
-    <p class="spacer">Scroll this box ↓</p>
+    <p class="spacer">Scroll this box <Icon name="arrow-down" size="1em" weight={2} /></p>
     <section data-horizontal-scroll aria-label="How it works">
       <div data-horizontal-scroll-track class="track">
         {cards.map(([number, title, text]) => (

@@ -2,7 +2,7 @@
   "package": {
     "name": "Horizontal Scroll",
     "npmName": "@samline/horizontal-scroll",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Pin a section and move its content sideways as the page scrolls down, with keyboard focus, a no-JavaScript fallback, media queries and reduced motion, for vanilla JavaScript, any framework and plain HTML.",
     "author": "Samuel Olvera (samline)",
     "license": "MIT",
@@ -29,7 +29,7 @@
     "accentDark": "#facc15"
   },
   "delivery": {
-    "cdnScript": "https://cdn.jsdelivr.net/npm/@samline/horizontal-scroll@1.0.0/dist/browser/horizontal-scroll.global.js",
+    "cdnScript": "https://cdn.jsdelivr.net/npm/@samline/horizontal-scroll@1.0.1/dist/browser/horizontal-scroll.global.js",
     "cdnStylesheet": null
   },
   "dev": {
