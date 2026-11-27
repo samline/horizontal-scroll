@@ -91,7 +91,7 @@ ${cards(5, 'card')}
 </section>
 <p class="spacer">The end</p>`,
       css: `/* Phones and reduced motion: a native, snapping carousel. */
-[data-horizontal-scroll] { overflow-x: auto; scroll-snap-type: x mandatory; }
+[data-horizontal-scroll] { overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; }
 .card { scroll-snap-align: center; }
 /* Pinned: no snapping, the page scroll drives the row. */
 [data-horizontal-scroll-state='active'] { scroll-snap-type: none; }
